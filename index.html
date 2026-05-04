@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Library</title>
+  </head>
+  <body>
+    <header>
+
+      <div class="header-container">
+
+        <div class="book-icon">
+          <img src="./src/assets/book.svg" alt="book-icon" />
+        </div>
+
+        <div class="header-text">
+          <h2>The Library</h2>
+          <p>Discover your next favorite book</p>
+        </div>
+        
+      </div>
+
+    </header>
+
+    <div>
+      <hr />
+    </div>
+
+    <main id="content">
+
+      <div class="search-container">
+        <h1>Discover Your Next Great Read</h1>
+        <p>
+          Search millions of books, build your personal library, and never lose
+          track of
+          <br />
+          what to read.
+        </p>
+
+        <div class="search-input">
+          <input
+            placeholder="Search for books by title of author..."
+            id="inp-search"
+            type="text"
+          />
+
+          <button id="btn-search">Search</button>
+        </div>
+      </div>
+
+      <div class="books-container">
+        <div id="grid-container" class="books-catalog">
+
+        </div>
+
+        <div class="books-favorite">
+          <div class="favorite-logo">
+            <div id="heart-container">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5928 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82671 2 9.00004 2.33333 8.00004 3.33333C7.00004 2.33333 6.17337 2 5.00004 2C4.02758 2 3.09495 2.38631 2.40732 3.07394C1.71968 3.76158 1.33337 4.69421 1.33337 5.66667C1.33337 7.2 2.33337 8.36667 3.33337 9.33333L8.00004 14L12.6667 9.33333Z"
+                  stroke="#27694d"
+                  stroke-width="1.33333"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+
+            <div class="favorite-logo-text">
+              <h2>Favorites</h2>
+              <p><span>0</span> books saved</p>
+            </div>
+          </div>
+
+          <div>
+            <hr />
+          </div>
+
+          <div id="favorite-container">
+
+          </div>
+          
+        </div>
+      </div>
+    </main>
+
+    <div>
+      <hr />
+    </div>
+
+    <footer>
+      
+      <div class="footer-container">
+        <p>Powered by <a href="https://openlibrary.org/">Open Library</a></p>
+      </div>
+
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
